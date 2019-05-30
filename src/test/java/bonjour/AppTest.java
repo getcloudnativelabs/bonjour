@@ -1,4 +1,4 @@
-package hello;
+package bonjour;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
@@ -20,18 +20,18 @@ public class AppTest {
     when().
       get("/").
     then().
-      body(equalTo("Hello!")).
+      body(equalTo("Bonjour!")).
       statusCode(200);
   }
 
   @Test
   public void nameParamIntegrationTest() {
     given().
-      queryParam("name", "Peter").
+      queryParam("name", "Pierre").
     when().
       get("/").
     then().
-      body(equalTo("Hello Peter!")).
+      body(equalTo("Bonjour Pierre!")).
       statusCode(200);
   }
 }

@@ -1,6 +1,6 @@
-# Hello
+# Bonjour
 
-A simple 'Hello' application.
+A simple 'Bonjour' application.
 
 ## Run
 

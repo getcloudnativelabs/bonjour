@@ -20,9 +20,9 @@ apply plugin: "com.google.osdetector"
 apply plugin: "application"
 apply plugin: "jooby"
 
-group "hello"
+group "bonjour"
 version "1.0"
-mainClassName = "hello.App"
+mainClassName = "bonjour.App"
 sourceCompatibility = 1.8
 
 repositories {

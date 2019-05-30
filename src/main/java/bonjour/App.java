@@ -1,4 +1,4 @@
-package hello;
+package bonjour;
 
 import org.jooby.Jooby;
 
@@ -11,9 +11,9 @@ public class App extends Jooby {
     get(req -> {
       String name = req.param("name").value("");
       if (name != "") {
-        return "Hello " + name + "!";
+        return "Bonjour " + name + "!";
       } else {
-        return "Hello!";
+        return "Bonjour!";
       }
     });
   }
