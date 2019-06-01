@@ -1,2 +1,15 @@
 ---
 dependencies: []
+phases:
+  build:
+    task: build
+    type: Makefile
+  deploy:
+    task: deploy
+    type: Makefile
+  test:
+    task: test
+    type: Makefile
+  release:
+    task: release
+    type: Makefile
