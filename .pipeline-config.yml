@@ -1,6 +1,5 @@
 ---
-dependencies:
-  - https://github.com/getcloudnativelabs/hello.git
+dependencies: []
 
 phases:
   build:
